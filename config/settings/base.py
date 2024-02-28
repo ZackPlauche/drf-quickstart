@@ -42,7 +42,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    # 'whitenose.middleware.WhiteNoiseMiddleware',  # Uncomment if you want to use whitenoise for staticfile serving.
+    # 'whitenoise.middleware.WhiteNoiseMiddleware',  # Uncomment if you want to use whitenoise for staticfile serving.
     'django.contrib.sessions.middleware.SessionMiddleware',
     # 'corsheaders.middleware.CorsMiddleware',  # Uncomment if you want to use corsheaders.
     'django.middleware.common.CommonMiddleware',
